@@ -1,6 +1,6 @@
 # Node Feature Discovery (NFD) Operator
 
-**Last Updated:** 2026-01-22
+<!-- Last Updated: 2026-01-22 -->
 
 The Node Feature Discovery (NFD) Operator is a Red Hat OpenShift Operator that automates the detection of hardware features and system configurations across cluster nodes.
 
@@ -14,7 +14,7 @@ The NFD Operator detects hardware features and configuration in an Red Hat OpenS
 4. Click **Install**.
 5. On the Install Operator page, Select the configuration. A specific namespace on the cluster
 
-> **Note:** You do not need to create a namespace because it is already created for you.
+**Note:** You do not need to create a namespace because it is already created for you.
 
 6. Click **Install**.
 7. Verify that the NFD Operator is successfully installed:
@@ -152,7 +152,7 @@ spec:
 
 ```
 
-> **NOTE:** in the `spec.operand.image`, the image tag *needs to match the OCP version that your cluster is running*
+**Note:** in the `spec.operand.image`, the image tag *needs to match the OCP version that your cluster is running*
 
 
 ## Parent topic:

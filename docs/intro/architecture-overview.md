@@ -1,6 +1,6 @@
 # Architecture overview
 
-**Last Updated:** 2026-01-22
+<!-- Last Updated: 2026-01-22 -->
 
 This section provides the architectural overview of the Spyre Operator.
 
@@ -29,7 +29,7 @@ Ensures that user workloads and cluster policies are valid. Blocks faulty deploy
 
 Pods request Spyre resources that use resource limits. The operator and the scheduler handle placement and allocation.
 
-*Figure 1. Architecture Overview*
+<!-- Figure 1. Architecture Overview -->
 
 ![Spyre Operator Architectural Overview](../../assets/images/spyre-operator-overview.png)
 

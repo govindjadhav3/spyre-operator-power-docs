@@ -1,6 +1,6 @@
 # cert-manager Operator for Red Hat OpenShift
 
-**Last Updated:** 2026-01-22
+<!-- Last Updated: 2026-01-22 -->
 
 The cert-manager Operator for Red Hat OpenShift is a cluster-wide service that automates application certificate lifecycle management.
 
@@ -16,7 +16,7 @@ The cert-manager Operator for Red Hat OpenShift is a cluster-wide service that a
    b. Choose the **Installed Namespace** for the Operator. The default Operator namespace is `cert-manager-operator`
       If the `cert-manager-operator` namespace does not exist, it is created for you
 
-> **Note:** During the installation, the Red Hat OpenShift web console allows you to select between `AllNamespaces` and `SingleNamespace` installation modes. For installations with cert-manager Operator for Red Hat OpenShift version 1.15.0 or later, it is recommended to choose the `AllNamespaces` installation mode. `SingleNamespace` and `OwnNamespace` support will remain for earlier versions but will be deprecated in future versions.
+**Note:** During the installation, the Red Hat OpenShift web console allows you to select between `AllNamespaces` and `SingleNamespace` installation modes. For installations with cert-manager Operator for Red Hat OpenShift version 1.15.0 or later, it is recommended to choose the `AllNamespaces` installation mode. `SingleNamespace` and `OwnNamespace` support will remain for earlier versions but will be deprecated in future versions.
 
    c. Select an **Update approval** strategy.
    d. Click **Install**
@@ -40,7 +40,7 @@ cert-manager-cainjector-5bcc5f9868-7g927   1/1     Running   0          4m5s
 cert-manager-webhook-d4479d7f7-9dg9W       1/1     Running   0          4m9s
 ```
 
-> **Note:** You can use the cert-manager Operator for Red Hat OpenShift only after cert-manager pods are up and running.
+**Note:** You can use the cert-manager Operator for Red Hat OpenShift only after cert-manager pods are up and running.
 
 ## Parent topic:
 

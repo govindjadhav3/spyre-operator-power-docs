@@ -1,6 +1,6 @@
 # Features and benefits
 
-**Last Updated:** 2026-01-22
+<!-- Last Updated: 2026-01-22 -->
 
 The Spyre Operator has the following key features and benefits:
 
@@ -10,7 +10,7 @@ The Spyre Operator has the following key features and benefits:
   - Simple allocation: Provides arbitrary Spyre cards
   - Per-device allocation: Allocates specific cards by PCI address
 
-> **Note:** The per-device allocation process is not recommended for general users. Only the cluster administrator can use this process for card debugging.
+**Note:** The per-device allocation process is not recommended for general users. Only the cluster administrator can use this process for card debugging.
 
 ## Custom scheduler
 
